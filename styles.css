@@ -1,20 +1,58 @@
 .image {
-	width: 200px;
+	width: 225px;
 	height: auto;
 	display: inline-block;
 	position: center;
 	top: 5px;
 	left: 50px;
+	border-radius: 8px;
+
 }
 	.font-color {
-		font-size: 40px;
-		color: darkgreen;
+		font-size: 60px;
+		color: #a01c1c;
+		font-family: "Impact", sans-serif;
+		border-style: ridge;
+		border-width: 10px;
+		border-color: purple;
+
 	}
 	.fc2 {
-		font-size: 20px;
-		color: saddlebrown;
+		font-size: 45px;
+		color: midnightblue;
+		font-family: "Comic Sans MS", sans-serif;
 	}
 body{
-	background-color: blanchedalmond;
+	background-color: gray;
 	text-align: center;
+
+}
+.image2 {
+	width: 225px;
+	height: auto;
+	display: inline-block;
+	position: center;
+	top: 5px;
+	left: 50px;
+	border-radius: 8px;
+}
+
+.page2{
+	text-align: center;
+	display: block;
+}
+
+.fc3 {
+	font-size: 45px;
+	color: midnightblue;
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: bold;
+}
+
+.github{
+	font-size: 35px;
+}
+
+a:visited{
+	color: blue;
 }
